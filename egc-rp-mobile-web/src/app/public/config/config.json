@@ -1,0 +1,24 @@
+{
+  "config": {
+    "_comment": "The active value is test(test) or dev(development) or prod(product).",
+    "active": "test",
+    "test": {
+      "scoketUrl": "http://192.168.1.52:9501/webSocketServer",
+      "urlApi": "http://192.168.1.52:8765",
+      "sharUrl": "http://192.168.1.52/nmenu/#/recipedetail/",
+      "imgurl": "https://egc-rp-test.oss-cn-shenzhen.aliyuncs.com"
+    },
+    "dev": {
+      "scoketUrl": "http://192.168.1.74:9501/webSocketServer",
+      "urlApi": "http://192.168.1.74:8765",
+      "sharUrl": "http://192.168.1.52/nmenu/#/recipedetail/",
+      "imgurl": "https://egc-rp-dev.oss-cn-shenzhen.aliyuncs.com"
+    },
+    "prod": {
+      "scoketUrl": "https://recipe.eg-live.com/ws/webSocketServer",
+      "urlApi": "https://recipe.eg-live.com",
+      "sharUrl": "https://recipe.eg-live.com/m-web/#/recipedetail/",
+      "imgurl": "https://recipes.oss-cn-shenzhen.aliyuncs.com"
+    }
+  }
+}
